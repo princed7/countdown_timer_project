@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(porschebg.JPG);
+  background-position: center;
+  background-size: cover;
+  padding: 0 8%;
+}
+.logo {
+  width: 250px;
+  margin-bottom: 10px;
+  padding: 1px 0;
+  cursor: pointer;
+}
+.content {
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.content h1 {
+  font-size: 46px;
+  font-weight: 10;
+}
+.content h2 {
+  font-size: 20px;
+  font-weight: 1;
+}
+.content button {
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  padding: 12px 25px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.launch-time {
+  display: flex;
+}
+.launch-time div {
+  flex-basis: 100px;
+}
+.launch-time div p {
+  font-size: 30px;
+  margin-bottom: -1px;
+}
+.image1 {
+  width: 200px;
+  position: absolute;
+  right: 78%;
+  margin-top: 460px;
+}
+.text {
+  color: rgba(255, 27, 27, 0.89);
+  margin-top: 25px;
+  font-size: 25px;
+  outline: auto;
+  outline-color: black;
+}
